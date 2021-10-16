@@ -191,6 +191,16 @@ footer > p {
     font-size: 20px;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+    height: 4px
+}
+  
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, rgba(235, 235, 235, 1) 0%, rgba(191, 191, 191, 1) 100%);
+    border-radius: 5px
+}
+
 @media (max-width: 900px) {
 
     .nav {
